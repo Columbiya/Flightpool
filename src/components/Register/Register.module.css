@@ -1,0 +1,75 @@
+.register {
+    margin: 100px 0 50px;
+}
+
+.form {
+    display: grid;
+    grid-template-areas: 'name surname'
+                        'phoneNumber phoneNumber'
+                        'password repeatPassword'
+                        '. button'
+                        'errorText errorText';
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.formName {
+    grid-area: name;
+}
+
+.formSurname {
+    grid-area: surname;
+}
+
+.formPhoneNumber {
+    grid-area: phoneNumber;
+}
+
+.formPassword {
+    grid-area: password;
+}
+
+.formRepeatPassword {
+    grid-area: repeatPassword;
+}
+
+.formButton {
+    grid-area: button;
+}
+
+.formElement {
+    position: relative;
+}
+
+.formInput {
+    width: 100%;
+}
+
+.errorText {
+    grid-area: errorText;
+    color: red;
+
+    text-align: center;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .form {
+        display: block;
+        max-width: 80%;
+        width: 100%;
+        
+        text-align: center;
+    }
+
+    .formElement:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}

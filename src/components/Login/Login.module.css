@@ -1,0 +1,62 @@
+.login {
+    margin: 100px 0 50px;
+}
+
+.form {
+    display: grid;
+    grid-template-areas: 'name surname'
+                        'password phoneNumber'
+                        '.. button';
+
+    grid-gap: 30px;
+
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.formElement input {
+    width: 100%;
+}
+
+.formElement:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.formName {
+    grid-area: name;
+}
+
+.fomrSurname {
+    grid-area: surname;
+}
+
+.formPhoneNumber {
+    grid-area: phoneNumber;
+}
+
+.formPassword {
+    grid-area: password;
+}
+
+.button {
+    grid-area: button;
+}
+
+.errorText {
+    color: red;
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .form {
+        display: block;
+        max-width: 80%;
+        
+        text-align: center;
+    }
+
+    .button {
+        margin: 15px 0 0;
+    }
+}
+

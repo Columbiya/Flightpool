@@ -1,0 +1,47 @@
+.me {
+    margin: 100px 0 50px;
+}
+
+.userName {
+    font-size: 40px;
+}
+
+.userInfo {
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 30px;
+
+    text-align: center;
+}
+
+.personImage {
+    display: inline;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.user {
+    max-width: 700px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    align-self: center;
+
+    margin-top: 50px;
+}
+
+.userStatistics {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.statistics {
+    color: blue;
+}

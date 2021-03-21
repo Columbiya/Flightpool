@@ -1,0 +1,43 @@
+.bookFlight {
+    margin: 50px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formElement {
+    position: relative;
+}
+
+.formElement:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.formElementText {
+    position: absolute;
+    left: -150px;
+}
+
+.errorText {
+    color: red;
+}
+
+@media screen and (max-width: 576px) {
+    .formElementText {
+        display: block;
+
+        position: relative;
+        left: 0;
+
+        margin-bottom: 10px;
+    }
+
+    .button {
+        margin-top: 15px;
+        
+        align-self: center;
+    }
+}
