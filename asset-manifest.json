@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Flightpool/static/css/main.ab5f51c4.chunk.css",
+    "main.js": "/Flightpool/static/js/main.239240eb.chunk.js",
+    "main.js.map": "/Flightpool/static/js/main.239240eb.chunk.js.map",
+    "runtime-main.js": "/Flightpool/static/js/runtime-main.0f49ff62.js",
+    "runtime-main.js.map": "/Flightpool/static/js/runtime-main.0f49ff62.js.map",
+    "static/js/2.b5adbae5.chunk.js": "/Flightpool/static/js/2.b5adbae5.chunk.js",
+    "static/js/2.b5adbae5.chunk.js.map": "/Flightpool/static/js/2.b5adbae5.chunk.js.map",
+    "static/js/3.b3214165.chunk.js": "/Flightpool/static/js/3.b3214165.chunk.js",
+    "static/js/3.b3214165.chunk.js.map": "/Flightpool/static/js/3.b3214165.chunk.js.map",
+    "index.html": "/Flightpool/index.html",
+    "static/css/main.ab5f51c4.chunk.css.map": "/Flightpool/static/css/main.ab5f51c4.chunk.css.map",
+    "static/js/2.b5adbae5.chunk.js.LICENSE.txt": "/Flightpool/static/js/2.b5adbae5.chunk.js.LICENSE.txt",
+    "static/media/clouds.f8218436.svg": "/Flightpool/static/media/clouds.f8218436.svg",
+    "static/media/Header.module.css": "/Flightpool/static/media/header-back3.885b5e31.jpg",
+    "static/media/logo.8d4c686b.png": "/Flightpool/static/media/logo.8d4c686b.png",
+    "static/media/person.dce9bae2.jpg": "/Flightpool/static/media/person.dce9bae2.jpg",
+    "static/media/promotion1.b89eea04.jpg": "/Flightpool/static/media/promotion1.b89eea04.jpg",
+    "static/media/promotion2.83e560df.jpg": "/Flightpool/static/media/promotion2.83e560df.jpg",
+    "static/media/promotion3.8d6e26c3.jpg": "/Flightpool/static/media/promotion3.8d6e26c3.jpg",
+    "static/media/promotion4.8544c77d.jpg": "/Flightpool/static/media/promotion4.8544c77d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f49ff62.js",
+    "static/js/2.b5adbae5.chunk.js",
+    "static/css/main.ab5f51c4.chunk.css",
+    "static/js/main.239240eb.chunk.js"
+  ]
+}
